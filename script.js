@@ -33,3 +33,7 @@ function traduceWord(word){
       }      
 }
 
+
+document.getElementById("confirm").addEventListener("click", function(){
+    document.getElementById("result").innerHTML = traduceWord(document.getElementById("atraduire").value);
+});
