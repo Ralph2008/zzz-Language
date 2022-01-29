@@ -43,5 +43,7 @@ document.getElementById("confirm").addEventListener("click", function(){
     for (let i = 0; i < Array.length; i++) {
         final.push(traduceWord(Array[i]));
       }
-    document.getElementById("result").innerHTML = final.join(" ");
+    final = final.join(" ");
+    final = final[0].toUpperCase() + final.slice(1); 
+    document.getElementById("result").innerHTML = final;
 });
