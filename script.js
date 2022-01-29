@@ -1,3 +1,5 @@
+//Functions
+
 function splitSentence(sentence){
     return (sentence.split(' '));
 }
@@ -33,6 +35,7 @@ function traduceWord(word){
       }      
 }
 
+// Other code
 
 document.getElementById("confirm").addEventListener("click", function(){
     document.getElementById("result").innerHTML = traduceWord(document.getElementById("atraduire").value);
