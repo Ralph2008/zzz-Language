@@ -1,5 +1,5 @@
 # zzz-Language
-Traducteur et dictionnaire (tout en python) de langage zzz, alias "langage des abeilles".
+Traducteur et dictionnaire de langage zzz, alias "langage des abeilles".
 
 👋 Hi, I’m Ghaly L. SEKKAT - 
 👀 I’m interested in mathematics and quantum physics. - 
