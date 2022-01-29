@@ -38,5 +38,10 @@ function traduceWord(word){
 // Other code
 
 document.getElementById("confirm").addEventListener("click", function(){
-    document.getElementById("result").innerHTML = traduceWord(document.getElementById("atraduire").value);
+    let Array = splitSentence(document.getElementById("atraduire").value);
+    let final = [];
+    for (let i = 0; i < Array.length; i++) {
+        final.push(traduceWord(Array[i]));
+      }
+    document.getElementById("result").innerHTML = final.join(" ");
 });
