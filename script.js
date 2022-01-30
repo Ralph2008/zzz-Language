@@ -45,5 +45,5 @@ document.getElementById("confirm").addEventListener("click", function(){
       }
     final = final.join(" ");
     final = final[0].toUpperCase() + final.slice(1); 
-    document.getElementById("result").innerHTML = final;
+    document.getElementById("result").innerHTML = final + ".";
 });
